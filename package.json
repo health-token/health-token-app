@@ -10,11 +10,13 @@
     "lint": "eslint ."
   },
   "dependencies": {
+    "@react-native-async-storage/async-storage": "^1.15.5",
     "@react-native-community/masked-view": "^0.1.11",
     "@react-navigation/native": "^5.9.4",
     "@react-navigation/stack": "^5.14.5",
     "@tradle/react-native-http": "^2.0.1",
     "@walletconnect/client": "^1.4.1",
+    "@walletconnect/react-native-dapp": "^1.4.1",
     "assert": "^1.5.0",
     "babel-preset-react-native": "^4.0.1",
     "browserify-zlib": "^0.1.4",

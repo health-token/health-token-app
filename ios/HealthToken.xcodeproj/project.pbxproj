@@ -11,9 +11,9 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		288AB9541FBBA313FE400689 /* libPods-HealthToken-HealthTokenTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 076B557F91D5C05002241850 /* libPods-HealthToken-HealthTokenTests.a */; };
+		1888F17D04E194F208983EDB /* libPods-HealthToken.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B43E7B70E0989C22D199780B /* libPods-HealthToken.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		E6C869C6ECD23E45B43BFE5D /* libPods-HealthToken.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 79C8923ABAC5B0CA4C075EB8 /* libPods-HealthToken.a */; };
+		DEC9BF5547D9BB5AECDC87B8 /* libPods-HealthToken-HealthTokenTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B44CD315C8E329DAF508D061 /* libPods-HealthToken-HealthTokenTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,20 +30,20 @@
 		00E356EE1AD99517003FC87E /* HealthTokenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HealthTokenTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* HealthTokenTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HealthTokenTests.m; sourceTree = "<group>"; };
-		076B557F91D5C05002241850 /* libPods-HealthToken-HealthTokenTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HealthToken-HealthTokenTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07F961A680F5B00A75B9A /* HealthToken.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HealthToken.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = HealthToken/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = HealthToken/AppDelegate.m; sourceTree = "<group>"; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = HealthToken/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = HealthToken/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = HealthToken/main.m; sourceTree = "<group>"; };
-		281D828924F27B68CC723421 /* Pods-HealthToken.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HealthToken.debug.xcconfig"; path = "Target Support Files/Pods-HealthToken/Pods-HealthToken.debug.xcconfig"; sourceTree = "<group>"; };
-		4ABB7F7F1D1406D597DB34EB /* Pods-HealthToken-HealthTokenTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HealthToken-HealthTokenTests.debug.xcconfig"; path = "Target Support Files/Pods-HealthToken-HealthTokenTests/Pods-HealthToken-HealthTokenTests.debug.xcconfig"; sourceTree = "<group>"; };
-		79C8923ABAC5B0CA4C075EB8 /* libPods-HealthToken.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HealthToken.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		42564B1C22CFE1531A9859B4 /* Pods-HealthToken.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HealthToken.debug.xcconfig"; path = "Target Support Files/Pods-HealthToken/Pods-HealthToken.debug.xcconfig"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = HealthToken/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		BFA636D73077BF322CF295CC /* Pods-HealthToken.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HealthToken.release.xcconfig"; path = "Target Support Files/Pods-HealthToken/Pods-HealthToken.release.xcconfig"; sourceTree = "<group>"; };
-		CA7586AD94BF933CA74412A8 /* Pods-HealthToken-HealthTokenTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HealthToken-HealthTokenTests.release.xcconfig"; path = "Target Support Files/Pods-HealthToken-HealthTokenTests/Pods-HealthToken-HealthTokenTests.release.xcconfig"; sourceTree = "<group>"; };
+		9F65D59FE55F5DB77F0C0D41 /* Pods-HealthToken.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HealthToken.release.xcconfig"; path = "Target Support Files/Pods-HealthToken/Pods-HealthToken.release.xcconfig"; sourceTree = "<group>"; };
+		B43E7B70E0989C22D199780B /* libPods-HealthToken.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HealthToken.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B44CD315C8E329DAF508D061 /* libPods-HealthToken-HealthTokenTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HealthToken-HealthTokenTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B45C2AB6EF2E1B008A235108 /* Pods-HealthToken-HealthTokenTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HealthToken-HealthTokenTests.release.xcconfig"; path = "Target Support Files/Pods-HealthToken-HealthTokenTests/Pods-HealthToken-HealthTokenTests.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		FFAA9FE63550DF063A209BEE /* Pods-HealthToken-HealthTokenTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HealthToken-HealthTokenTests.debug.xcconfig"; path = "Target Support Files/Pods-HealthToken-HealthTokenTests/Pods-HealthToken-HealthTokenTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,7 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				288AB9541FBBA313FE400689 /* libPods-HealthToken-HealthTokenTests.a in Frameworks */,
+				DEC9BF5547D9BB5AECDC87B8 /* libPods-HealthToken-HealthTokenTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,7 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E6C869C6ECD23E45B43BFE5D /* libPods-HealthToken.a in Frameworks */,
+				1888F17D04E194F208983EDB /* libPods-HealthToken.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,8 +100,8 @@
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				79C8923ABAC5B0CA4C075EB8 /* libPods-HealthToken.a */,
-				076B557F91D5C05002241850 /* libPods-HealthToken-HealthTokenTests.a */,
+				B43E7B70E0989C22D199780B /* libPods-HealthToken.a */,
+				B44CD315C8E329DAF508D061 /* libPods-HealthToken-HealthTokenTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -109,12 +109,11 @@
 		81BE4F4614626C612EA6AA08 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				281D828924F27B68CC723421 /* Pods-HealthToken.debug.xcconfig */,
-				BFA636D73077BF322CF295CC /* Pods-HealthToken.release.xcconfig */,
-				4ABB7F7F1D1406D597DB34EB /* Pods-HealthToken-HealthTokenTests.debug.xcconfig */,
-				CA7586AD94BF933CA74412A8 /* Pods-HealthToken-HealthTokenTests.release.xcconfig */,
+				42564B1C22CFE1531A9859B4 /* Pods-HealthToken.debug.xcconfig */,
+				9F65D59FE55F5DB77F0C0D41 /* Pods-HealthToken.release.xcconfig */,
+				FFAA9FE63550DF063A209BEE /* Pods-HealthToken-HealthTokenTests.debug.xcconfig */,
+				B45C2AB6EF2E1B008A235108 /* Pods-HealthToken-HealthTokenTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -156,12 +155,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "HealthTokenTests" */;
 			buildPhases = (
-				A1B92E263C50A502ED3D925C /* [CP] Check Pods Manifest.lock */,
+				C94417B3A7EAD49013431E2E /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
-				76C841C361DB949114BE892C /* [CP] Embed Pods Frameworks */,
-				52B438AA7673F3D2C4638EF9 /* [CP] Copy Pods Resources */,
+				129FF42889933602F4BAB600 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -177,14 +175,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "HealthToken" */;
 			buildPhases = (
-				2A49D7AB32B0121FF7591C1B /* [CP] Check Pods Manifest.lock */,
+				F717B28CD4A90E47DB9B1FD0 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				9C224D1A35AD2A774427650A /* [CP] Embed Pods Frameworks */,
-				3099093572A80DD474828309 /* [CP] Copy Pods Resources */,
+				255454E7DEEA987FD0AB7AAA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -265,46 +262,7 @@
 			shellPath = /bin/sh;
 			shellScript = "set -e\n\nexport NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
 		};
-		2A49D7AB32B0121FF7591C1B /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-HealthToken-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		3099093572A80DD474828309 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-HealthToken/Pods-HealthToken-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-HealthToken/Pods-HealthToken-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HealthToken/Pods-HealthToken-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		52B438AA7673F3D2C4638EF9 /* [CP] Copy Pods Resources */ = {
+		129FF42889933602F4BAB600 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -321,41 +279,24 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HealthToken-HealthTokenTests/Pods-HealthToken-HealthTokenTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		76C841C361DB949114BE892C /* [CP] Embed Pods Frameworks */ = {
+		255454E7DEEA987FD0AB7AAA /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-HealthToken-HealthTokenTests/Pods-HealthToken-HealthTokenTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-HealthToken/Pods-HealthToken-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			name = "[CP] Embed Pods Frameworks";
+			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-HealthToken-HealthTokenTests/Pods-HealthToken-HealthTokenTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-HealthToken/Pods-HealthToken-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HealthToken-HealthTokenTests/Pods-HealthToken-HealthTokenTests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HealthToken/Pods-HealthToken-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		9C224D1A35AD2A774427650A /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-HealthToken/Pods-HealthToken-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-HealthToken/Pods-HealthToken-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HealthToken/Pods-HealthToken-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		A1B92E263C50A502ED3D925C /* [CP] Check Pods Manifest.lock */ = {
+		C94417B3A7EAD49013431E2E /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -371,6 +312,28 @@
 			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-HealthToken-HealthTokenTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F717B28CD4A90E47DB9B1FD0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HealthToken-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -429,7 +392,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4ABB7F7F1D1406D597DB34EB /* Pods-HealthToken-HealthTokenTests.debug.xcconfig */;
+			baseConfigurationReference = FFAA9FE63550DF063A209BEE /* Pods-HealthToken-HealthTokenTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -456,7 +419,7 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CA7586AD94BF933CA74412A8 /* Pods-HealthToken-HealthTokenTests.release.xcconfig */;
+			baseConfigurationReference = B45C2AB6EF2E1B008A235108 /* Pods-HealthToken-HealthTokenTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -480,13 +443,14 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 281D828924F27B68CC723421 /* Pods-HealthToken.debug.xcconfig */;
+			baseConfigurationReference = 42564B1C22CFE1531A9859B4 /* Pods-HealthToken.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				ENABLE_BITCODE = NO;
+				ENABLE_BITCODE = YES;
 				INFOPLIST_FILE = HealthToken/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -506,12 +470,14 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BFA636D73077BF322CF295CC /* Pods-HealthToken.release.xcconfig */;
+			baseConfigurationReference = 9F65D59FE55F5DB77F0C0D41 /* Pods-HealthToken.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = HealthToken/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
