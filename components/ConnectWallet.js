@@ -12,9 +12,9 @@ const style = {
   alignItems: 'center',
 }
 
-export default function Connect() {
+export default function ({ onPress }) {
   return (
-      <TouchableOpacity style={style}>
+      <TouchableOpacity style={style} onPress={onPress}>
         <Text>🥰</Text>
       </TouchableOpacity>
     )

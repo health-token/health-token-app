@@ -1,13 +1,12 @@
 import React from 'react'
 import { View, Text, StyleSheet } from 'react-native'
-
-import Connect from 'root/components/Connect'
+import ConnectWallet from 'components/ConnectWallet'
 
 
 export default function HomeScreen() {
   return (
     <View style={styles.screen}>
-      <Connect />
+      <ConnectWallet onPress={() => null} />
     </View>
   )
 }
