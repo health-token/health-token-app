@@ -18,13 +18,24 @@ const ButtonText = styled.Text`
   color: #ffffff; 
 `
 
-export default function () {
+export default function ({ navigation }) {
   const connector = useWalletConnect()
   return (
-      <TouchableOpacity onPress={!connector.connected ? () => connector.connect() : () => console.log('con')}>
+    <TouchableOpacity 
+    onPress={
+      !connector.connected 
+        ? () => connector.connect() 
+        : () => navigation.navigate('Dashboard', {
+          addr: connector.accounts[0] 
+        })
+    }>
         <Button>
           <ButtonText>
-            connect wallet to get started 
+            {
+              !connector.connected 
+                ? 'connect wallet to continue' 
+                : 'continue'
+            }
           </ButtonText>
         </Button>
       </TouchableOpacity>

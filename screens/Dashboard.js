@@ -1,5 +1,4 @@
 import React from 'react'
-import ConnectWallet from 'components/ConnectWallet'
 import PageHeader from 'components/svg/PageHeader'
 import styled from 'styled-components/native'
 
@@ -11,12 +10,10 @@ const Screen = styled.View`
   alignItems: center;
 `
 
-export default function HomeScreen({ navigation }) {
+export default function Dashboard({ navigation }) {
   return (
     <Screen>
       <PageHeader />
-      <ConnectWallet navigation={navigation} />
     </Screen>
   )
 }
- 
