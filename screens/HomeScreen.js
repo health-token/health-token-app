@@ -17,10 +17,7 @@ export default function HomeScreen() {
   return (
     <Screen>
       <PageHeader />
-      <ConnectWallet 
-        text={'connect wallet to get started'}
-        onPress={() => null} 
-      />
+      <ConnectWallet />
     </Screen>
   )
 }

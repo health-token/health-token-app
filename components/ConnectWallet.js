@@ -1,6 +1,7 @@
 import React from 'react'
 import styled from 'styled-components/native'
 import { TouchableOpacity, Text } from 'react-native'
+import { useWalletConnect } from '@walletconnect/react-native-dapp'
 
 const Button = styled.View`
   background: #303030;
@@ -17,12 +18,13 @@ const ButtonText = styled.Text`
   color: #ffffff; 
 `
 
-export default function ({ onPress, text }) {
+export default function () {
+  const connector = useWalletConnect()
   return (
-      <TouchableOpacity onPress={onPress}>
+      <TouchableOpacity onPress={!connector.connected ? () => connector.connect() : () => console.log('con')}>
         <Button>
           <ButtonText>
-            {text}
+            connect wallet to get started 
           </ButtonText>
         </Button>
       </TouchableOpacity>
