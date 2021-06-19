@@ -6,6 +6,7 @@ import AsyncStorage from '@react-native-async-storage/async-storage'
 import { withWalletConnect } from '@walletconnect/react-native-dapp'
 import HomeScreen from 'screens/HomeScreen'
 import Dashboard from 'screens/Dashboard'
+import ChartScreen from 'screens/ChartScreen'
 
 const Stack = createStackNavigator()
 
@@ -18,6 +19,7 @@ function App() {
   return (
     <NavigationContainer theme={Theme}>
       <Stack.Navigator>
+        {/*
         <Stack.Screen
           name="HomeScreen"
           component={HomeScreen}
@@ -26,6 +28,12 @@ function App() {
         <Stack.Screen
           name="Dashboard"
           component={Dashboard}
+          options={{headerShown: false}}
+        />
+        */}
+        <Stack.Screen
+          name="ChartScreen"
+          component={ChartScreen}
           options={{headerShown: false}}
         />
       </Stack.Navigator>

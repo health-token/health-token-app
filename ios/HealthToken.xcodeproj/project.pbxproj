@@ -13,6 +13,7 @@
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		DEC9BF5547D9BB5AECDC87B8 /* libPods-HealthToken-HealthTokenTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B44CD315C8E329DAF508D061 /* libPods-HealthToken-HealthTokenTests.a */; };
+		EDEE1ADFFF1B5532BAD80F7B /* libPods-HealthToken.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B43E7B70E0989C22D199780B /* libPods-HealthToken.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EDEE1ADFFF1B5532BAD80F7B /* libPods-HealthToken.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
