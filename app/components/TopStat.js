@@ -27,7 +27,8 @@ const Row = styled.View`
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  width: 80%;
+  width: 100%;
+  margin-right: 10%;
 `
 
 export default function TopStat({ 
@@ -40,7 +41,7 @@ export default function TopStat({
 }) {
   return (
     <Container>
-      <TouchableOpacity onPress={navigation.goBack()}>
+      <TouchableOpacity onPress={() => navigation.goBack()}>
         <Back />
       </TouchableOpacity>
       <View>

@@ -7,6 +7,7 @@ import { withWalletConnect } from '@walletconnect/react-native-dapp'
 import HomeScreen from 'screens/HomeScreen'
 import Dashboard from 'screens/Dashboard'
 import ChartScreen from 'screens/ChartScreen'
+import SocialsScreen from 'screens/SocialsScreen'
 
 const Stack = createStackNavigator()
 
@@ -30,10 +31,15 @@ function App() {
           component={Dashboard}
           options={{headerShown: false}}
         />
-        */}
         <Stack.Screen
           name="ChartScreen"
           component={ChartScreen}
+          options={{headerShown: false}}
+        />
+        */}
+        <Stack.Screen
+          name="SocialsScreen"
+          component={SocialsScreen}
           options={{headerShown: false}}
         />
       </Stack.Navigator>

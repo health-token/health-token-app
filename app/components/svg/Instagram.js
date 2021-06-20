@@ -24,4 +24,4 @@ function SvgComponent(props: SvgProps) {
 }
 
 export default SvgComponent
-p[
+
