@@ -1,6 +1,6 @@
 import React from 'react'
-import styled from 'styled-components/native'
 import { TouchableOpacity, Text } from 'react-native'
+import styled from 'styled-components/native'
 import { useWalletConnect } from '@walletconnect/react-native-dapp'
 
 const Button = styled.View`

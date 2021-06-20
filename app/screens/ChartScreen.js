@@ -1,6 +1,21 @@
 import React, { useState, useEffect } from 'react'
 import { getHolders, getBalances } from 'hooks'
-import Screen from 'components/styled/Screen'
+import GreenScreen from 'components/GreenScreen'
+import Overlay from 'components/styled/Overlay'
+import styled from 'styled-components/native'
+import StatCard from 'components/StatCard'
+import Wallet from 'components/svg/Wallet'
+import Change from 'components/svg/Change'
+import Heart from 'components/svg/Heart'
+import Volume from 'components/svg/Volume'
+
+const GridOverlay = styled(Overlay)`
+  padding: 30px 20px 30px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  flex-direction: row;
+`
 
 export default function ChartScreen({ navigation }) {
   const [data, setData] = useState({})
@@ -15,8 +30,30 @@ export default function ChartScreen({ navigation }) {
     setData(data => ({ ...data, holders: holders }))
   }, [])
   return (
-    <Screen>
-    </Screen>
+    <GreenScreen>
+      <GridOverlay>
+        <StatCard 
+          image={<Wallet />}
+          mainText={'$1,243.85'} 
+          subText={'current holdings'}
+        />
+        <StatCard 
+          image={<Change />}
+          mainText={'$1,243.85'} 
+          subText={'current holdings'}
+        />
+        <StatCard 
+          image={<Heart />}
+          mainText={'$1,243.85'} 
+          subText={'current holdings'}
+        />
+        <StatCard 
+          image={<Volume />}
+          mainText={'$1,243.85'} 
+          subText={'current holdings'}
+        />
+      </GridOverlay>
+    </GreenScreen>
   )
 }
 
