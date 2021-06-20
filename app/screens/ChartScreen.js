@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react'
 import { getHolders, getBalances } from 'hooks'
 import GreenScreen from 'components/GreenScreen'
 import Overlay from 'components/styled/Overlay'
+import TopStat from 'components/TopStat'
 import styled from 'styled-components/native'
 import StatCard from 'components/StatCard'
 import Wallet from 'components/svg/Wallet'
@@ -31,6 +32,11 @@ export default function ChartScreen({ navigation }) {
   }, [])
   return (
     <GreenScreen>
+      <TopStat 
+        navigation={navigation}
+        mainTextLeft={'$0.12341234'}
+        subTextLeft={'Current price'}
+      />
       <GridOverlay>
         <StatCard 
           image={<Wallet />}
