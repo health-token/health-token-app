@@ -17,3 +17,13 @@ export async function getBalances(addr) {
   return json.data.items
 }
 
+export async function getChangeAndVolume() {
+  let url = 'https://api.coingecko.com/api/v3/coins/health-token/'
+  const res = await fetch(url)
+  const json = await res.json()
+  return [
+    json.market_data.price_change_percentage_24h, 
+    json.market_data.total_volume.usd
+  ]
+}
+

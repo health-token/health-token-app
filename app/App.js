@@ -20,6 +20,11 @@ function App() {
   return (
     <NavigationContainer theme={Theme}>
       <Stack.Navigator>
+        <Stack.Screen
+          name="ChartScreen"
+          component={ChartScreen}
+          options={{headerShown: false}}
+        />
         {/*
         <Stack.Screen
           name="HomeScreen"
@@ -32,16 +37,11 @@ function App() {
           options={{headerShown: false}}
         />
         <Stack.Screen
-          name="ChartScreen"
-          component={ChartScreen}
-          options={{headerShown: false}}
-        />
-        */}
-        <Stack.Screen
           name="SocialsScreen"
           component={SocialsScreen}
           options={{headerShown: false}}
         />
+        */}
       </Stack.Navigator>
     </NavigationContainer>
   )

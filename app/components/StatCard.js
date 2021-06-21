@@ -33,7 +33,16 @@ export default function ({ image, mainText, subText }) {
     <Card>
       {image}  
       <View>
-        <MainText>{mainText}</MainText>
+        <MainText 
+          style={
+            subText === '24h Change' && (
+              parseFloat(mainText) < 0 
+              ? {color: 'red'} 
+              : {color: 'green'}
+          )}
+        >
+          {mainText}
+        </MainText>
         <SubText>{subText}</SubText>
       </View>
     </Card>
