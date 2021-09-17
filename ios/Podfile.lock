@@ -546,7 +546,7 @@ SPEC CHECKSUMS:
   EXLinearGradient: 39b1cf1df5b885e8c35e8afedc9d8893b9fced4b
   EXPermissions: 8f8c1c05580c4e02d4ee2c8dd74bfe173ff6a723
   FBLazyVector: e686045572151edef46010a6f819ade377dfeb4b
-  FBReactNativeSpec: 2bff3e33bbe66a2e8b2ba9c192d8b7577a1c91e8
+  FBReactNativeSpec: b15ebc38867307c1322f39bea7353a05d98bc16b
   glog: 73c2498ac6884b13ede40eda8228cb1eee9d9d62
   RCT-Folly: ec7a233ccc97cc556cf7237f0db1ff65b986f27c
   RCTRequired: 6d3e854f0e7260a648badd0d44fc364bc9da9728
@@ -599,4 +599,4 @@ SPEC CHECKSUMS:
 
 PODFILE CHECKSUM: 3c290de0b39f49c386d23e90ff81891e05fdf8cb
 
-COCOAPODS: 1.10.1
+COCOAPODS: 1.11.2

@@ -4,7 +4,7 @@ import { LinearGradient } from 'expo-linear-gradient'
 
 export default function GreenScreen({ children }) {
   return (
-    <Screen style={{backgroundColor:'#5AD710'}}>
+    <Screen style={{ backgroundColor:'#5AD710' }}>
       {children}
     </Screen>
   )

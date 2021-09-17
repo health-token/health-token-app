@@ -1,15 +1,6 @@
-onboarding 0 - create and earn health token
-onboarding 1 - put it after 1
+add the new stuff from the design
 
-drop the descriptions in Health Handler, website and anywhere coz ppl dont like creating those nor reading
+fix the fonts using the fonts from npm
 
-new screens:
-1) create meal - based on https://handler.health/create-meal
-2) create plan - based on https://handler.health/create-plan
-
-link the new screens in the dashboard
-
-making the chart would be a lot of effort
-
-two 'chart' screens => get rid of one with the chart, keep one with the raised so far, add something else
+add readme for github of mine
 

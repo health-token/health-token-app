@@ -9,6 +9,11 @@ import Wallet from 'components/svg/Wallet'
 import Change from 'components/svg/Change'
 import Heart from 'components/svg/Heart'
 import Volume from 'components/svg/Volume'
+import {
+  CONTRACT_ADDRESS as contractAddr, 
+  CHARITY_WALLET_ADDRESS as charityAddr,
+  WALLET_ADDRESS as addr 
+} from 'constants' 
 
 const GridOverlay = styled(Overlay)`
   padding: 30px 20px 30px;
@@ -20,32 +25,32 @@ const GridOverlay = styled(Overlay)`
 
 export default function ChartScreen({ navigation }) {
   const [data, setData] = useState({})
-  const addr = '0xb7ADAd5f58aD063E1a8f174C61777b66872C8b65'  
-  const charityAddr = '0xE941B72D6B0E9a826bb62fd718C01dBFa8CF8fFB'
-  const contractAddr = '0x2bd7e7aed93d79d7d8a6d23dc7defc7d6b5d84ad'
-  useEffect(async () => {
-    const balances = await getBalances(addr)
-    const charityBalances = await getBalances(charityAddr)
-    const [change, volume] = await getChangeAndVolume()
-    const items = balances.filter(
-      i => i.contract_address === contractAddr
-    )
-    const charityItems = charityBalances.filter(
-      i => i.contract_address === contractAddr
-    )
-    if (items.length) {
-      const [item] = items
-      const [charityItem] = charityItems
-      setData(data => ({ 
-        ...data, 
-        balance: item.balance,
-        quote: item.quote,
-        rate: item.quote_rate,
-        charityQuote: charityItem?.quote,
-        change: change,
-        volume: volume
-      }))
-    }
+  useEffect(function() {
+    (async function() {
+      const balances = await getBalances(addr)
+      const charityBalances = await getBalances(charityAddr)
+      const [change, volume] = await getChangeAndVolume()
+      const items = balances.filter(
+        i => i.contract_address === contractAddr
+      )
+      const charityItems = charityBalances.filter(
+        i => i.contract_address === contractAddr
+      )
+      console.log(change)
+      if (items.length) {
+        const [item] = items
+        const [charityItem] = charityItems
+        setData(data => ({ 
+          ...data, 
+          balance: item.balance,
+          quote: item.quote,
+          rate: item.quote_rate,
+          charityQuote: charityItem?.quote,
+          change: change,
+          volume: volume
+        }))
+      }
+    })()
   }, [])
   return (
     <GreenScreen>

@@ -1,0 +1,17 @@
+todos 
+-----
+
+finish frontend (health handler + the hub)
+
+get a meal plan 
+  -> checklist through the meals of the day 
+  -> calories counter as you check the meal 
+  -> edit set meal and replace with the meal you had using the barcode scanning 
+  -> start meal
+      for each of products 
+        prioritise barcode scanning however maybe in the future
+          1) search for the barcode
+          2) search for captions
+          3) food recognition 
+          4) if qty not there add the quantity
+

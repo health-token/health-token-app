@@ -28,6 +28,7 @@
     "events": "^1.1.1",
     "expo-linear-gradient": "^9.1.0",
     "https-browserify": "^0.0.1",
+    "patch-package": "^6.4.7",
     "path-browserify": "^0.0.0",
     "process": "^0.11.10",
     "punycode": "^1.4.1",
@@ -54,7 +55,8 @@
     "tty-browserify": "^0.0.0",
     "url": "^0.10.3",
     "util": "^0.10.4",
-    "vm-browserify": "^0.0.4"
+    "vm-browserify": "^0.0.4",
+    "watchman": "^1.0.0"
   },
   "devDependencies": {
     "@babel/core": "7.14.3",

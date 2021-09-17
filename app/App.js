@@ -21,14 +21,13 @@ function App() {
     <NavigationContainer theme={Theme}>
       <Stack.Navigator>
         <Stack.Screen
-          name="ChartScreen"
-          component={ChartScreen}
-          options={{headerShown: false}}
-        />
-        {/*
-        <Stack.Screen
           name="HomeScreen"
           component={HomeScreen}
+          options={{headerShown: false}}
+        />
+        <Stack.Screen
+          name="ChartScreen"
+          component={ChartScreen}
           options={{headerShown: false}}
         />
         <Stack.Screen
@@ -41,16 +40,17 @@ function App() {
           component={SocialsScreen}
           options={{headerShown: false}}
         />
-        */}
       </Stack.Navigator>
     </NavigationContainer>
   )
 }
 
 export default withWalletConnect(App, {
-	redirectUrl: Platform.OS === 'web' ? window.location.origin : 'yourappscheme://',
-		storageOptions: {
-			asyncStorage: AsyncStorage,
-		}
+  redirectUrl: Platform.OS === 'web' 
+    ? window.location.origin 
+    : 'yourappscheme://',
+  storageOptions: {
+    asyncStorage: AsyncStorage,
+  }
 })
 
