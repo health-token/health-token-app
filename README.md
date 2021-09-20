@@ -14,6 +14,18 @@
   >
     Design Link (work in progress)
   </a>
+  <h4>
+    Setup
+  </h4>
+  In the home dir:
+  ```
+  yarn && 
+    npx rn-nodeify --hack -install &&
+    cd ios &&
+    arch -x86_64 pod install && 
+    cd .. &&
+    yarn ios
+  ```
 </p>
 
 
